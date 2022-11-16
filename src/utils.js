@@ -80,7 +80,7 @@ let initialState = {
     chainId: null,
     signer: null,
   };
-export const AppContext = React.createContext(); //context
+export const AppContext = React.createContext(); 
 
 
 export const AppContextProvider = ({ children }) => {
